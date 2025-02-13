@@ -127,6 +127,7 @@ export default {
 
 <style scoped>
 .app-container {
+  padding-left: 48px;
   padding-bottom: 130px;
   position: relative;
   background-color: #202d3a;
@@ -144,8 +145,8 @@ export default {
 
 .basket-button {
   position: absolute;
-  bottom: 100px;
-  right: 500px;
+  left: 30px;
+  top: 30px;
   background-color: #ff6b6b;
   color: white;
   border: none;
@@ -166,7 +167,7 @@ export default {
   font-size: 16px;
   font-weight: bold;
   border-radius: 50%;
-  padding: 10px 10px;
+  padding: 8px 12px;
   margin-left: 5px;
   transition: transform 0.3s ease-in-out;
 }
